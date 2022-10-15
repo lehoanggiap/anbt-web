@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Asap', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    background: url('../img/cover.jpg') top center / contain repeat; 
+    padding-top: 20%;
+}
+
+.body-head{
+    border: 2px solid var(--bs-gray-300);
+    border-width: 0 0 2px 0;
+}
+
+.body-head h2{
+    margin-bottom: 20px;
+    color: var(--bs-success);
+    padding: 6px;
+}
+
+/*Form*/
+#form-visit{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    margin: 20px 0;
+    padding: 6px;
+    border: 1px solid var(--bs-gray-300);
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+.input-label{
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+}
+
+.w-0{
+    width:unset;
+}
+
+.btn-register{
+    background-color: var(--bs-gray-300);
+    color: var(--bs-dark);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div[class*="error"]{
+    color: red;
+}
+
+.search-block{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.btn-search{
+    background-color: var(--bs-gray-300);
+    color: var(--bs-dark);
+    margin-left: 40px;
+}
+
+/*Table*/
+.content-table{
+    border-collapse: separate;
+    /* border-radius: 3px; */
+    border-spacing: 0;
+    word-break: break-all;
+    width: auto;
+    border: 0.5px solid var(--bs-dark);
+}
+
+/* .content-table.no-row{
+    border-bottom-width: 0;
+}
+
+.content-table td{
+    height: 5rem;
+}
+
+.content-table th,
+.content-table td{
+    border-right-width: 1px;
+    font-size: 1.4rem;
+    vertical-align: middle;
+    word-break: break-all;
+}
+
+.content-table thead th{
+    background-color: var(--bs-gray-300);
+}
+
+.content-table thead th:last-child,
+.content-table tbody td:last-child{
+    border-right-width: 0;
+}
+
+.content-table tbody td:last-child{
+    border-right-width: 0;
+}
+
+.content-table tbody tr:last-child td,
+.content-table tbody tr:last-child th{
+    border-bottom-width: 0;
+}
+
+.content-table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+} */
